@@ -1,0 +1,36 @@
+{
+  "development": {
+    "server": {
+      "protocol": "http",
+      "host": "dummy.com:3000"
+    },
+    "facebook": {
+      "key": "app credentials for our development OAuth app",
+      "secret": "app credentials for our development OAuth app"
+    },
+    "twitter": {}
+  },
+  "staging": {
+    "server": {
+      "protocol": "https",
+      "host": "staging.myawesomesite.com"
+    },
+    "facebook": {
+      "key": "app credentials for our staging OAuth app",
+      "secret": "app credentials for our staging OAuth app"
+    },
+    "twitter": {}
+  },
+  "production": {
+    "server": {
+      "protocol": "https",
+      "host": "myawesomesite.com"
+    },
+    "facebook": {
+      "key": "app credentials for our production OAuth app",
+      "secret": "app credentials for our production OAuth app"
+    },
+    "twitter": {}
+    
+  }
+}
