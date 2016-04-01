@@ -1,0 +1,19 @@
+{
+    "server": {
+    "protocol": "http",
+        "host": "fe.com:3000"
+},
+    "facebook": {
+    "key": "599257666917550",
+        "secret": "e6668d9c17cf01150ce2fc04d8c7d152",
+        "callback": "/handle_facebook_callback",
+        "scope": [
+        "user_likes"
+    ]
+},
+    "twitter": {
+    "key": "[CONSUMER_KEY]",
+        "secret": "[CONSUMER_SECRET]",
+        "callback": "/handle_twitter_callback"
+}
+}
